@@ -1,0 +1,17 @@
+
+State Machine - |UART_RX|current_state
+Name current_state.state_idle current_state.state_update_data current_state.state_wait_idle current_state.state_stop_bit_check current_state.state_sample_stop_bit current_state.state_wait_done current_state.state_parity_check current_state.state_sample_parity current_state.state_wait current_state.state_update_parity current_state.state_sample_data current_state.state_data_frame current_state.state_start current_state.state_arst 
+current_state.state_arst 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.state_start 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.state_data_frame 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.state_sample_data 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.state_update_parity 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.state_wait 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.state_sample_parity 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.state_parity_check 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.state_wait_done 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.state_sample_stop_bit 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.state_stop_bit_check 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.state_wait_idle 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.state_update_data 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.state_idle 1 0 0 0 0 0 0 0 0 0 0 0 0 1 

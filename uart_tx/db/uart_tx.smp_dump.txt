@@ -1,0 +1,14 @@
+
+State Machine - |UART_TX|current_state
+Name current_state.state_ready_idle current_state.state_wait_idle current_state.state_done current_state.state_wait_done current_state.state_parity_bit current_state.state_wait current_state.state_data_frame current_state.state_wait_data_frame current_state.state_start current_state.state_resume_idle current_state.state_idle 
+current_state.state_idle 0 0 0 0 0 0 0 0 0 0 0 
+current_state.state_resume_idle 0 0 0 0 0 0 0 0 0 1 1 
+current_state.state_start 0 0 0 0 0 0 0 0 1 0 1 
+current_state.state_wait_data_frame 0 0 0 0 0 0 0 1 0 0 1 
+current_state.state_data_frame 0 0 0 0 0 0 1 0 0 0 1 
+current_state.state_wait 0 0 0 0 0 1 0 0 0 0 1 
+current_state.state_parity_bit 0 0 0 0 1 0 0 0 0 0 1 
+current_state.state_wait_done 0 0 0 1 0 0 0 0 0 0 1 
+current_state.state_done 0 0 1 0 0 0 0 0 0 0 1 
+current_state.state_wait_idle 0 1 0 0 0 0 0 0 0 0 1 
+current_state.state_ready_idle 1 0 0 0 0 0 0 0 0 0 1 

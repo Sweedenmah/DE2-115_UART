@@ -1,0 +1,113 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DATA_RXD[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_RXD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_RXD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_RXD[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_RXD[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_RXD[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_RXD[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_RXD[7]",
+					"strict" : false
+				},
+				{
+					"name" : "UART_TXD",
+					"strict" : false
+				},
+				{
+					"name" : "RXD_IDLE",
+					"strict" : false
+				},
+				{
+					"name" : "RXD_VALID",
+					"strict" : false
+				},
+				{
+					"name" : "TXD_IDLE",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "ARST",
+					"strict" : false
+				},
+				{
+					"name" : "SEND",
+					"strict" : false
+				},
+				{
+					"name" : "RECIEVER_IDLE",
+					"strict" : false
+				},
+				{
+					"name" : "RECIEVER_VALID",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_TXD[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_TXD[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_TXD[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_TXD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_TXD[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_TXD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_TXD[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DATA_TXD[6]",
+					"strict" : false
+				},
+				{
+					"name" : "UART_RXD",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

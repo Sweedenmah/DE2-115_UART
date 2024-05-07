@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/simon/Desktop/ENSC350/project/uart_tx/simulation/modelsim
+Etb_uart_tx
+Z1 w1681448593
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8C:/Users/simon/Desktop/ENSC350/project/uart_tx/tb_uart_tx.vhd
+Z6 FC:/Users/simon/Desktop/ENSC350/project/uart_tx/tb_uart_tx.vhd
+l0
+L8 1
+V[?TX15YKBkJcBMCNg[H:42
+!s100 m9Cm4A@gXRPknZEX5n>:U2
+Z7 OV;C;2020.1;71
+33
+Z8 !s110 1681448646
+!i10b 1
+Z9 !s108 1681448646.000000
+Z10 !s90 -reportprogress|300|-2008|-work|work|C:/Users/simon/Desktop/ENSC350/project/uart_tx/tb_uart_tx.vhd|
+!s107 C:/Users/simon/Desktop/ENSC350/project/uart_tx/tb_uart_tx.vhd|
+!i113 1
+Z11 o-2008 -work work
+Z12 tExplicit 1 CvgOpt 0
+Atest
+R2
+R3
+R4
+DEx4 work 10 tb_uart_tx 0 22 [?TX15YKBkJcBMCNg[H:42
+!i122 1
+l31
+L11 46
+V=4WY7ze>YLXl1[7S^5OZo1
+!s100 He0X>mKlCfDkn@SFL_64n0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 C:/Users/simon/Desktop/ENSC350/project/uart_tx/tb_uart_tx.vhd|
+!i113 1
+R11
+R12
+Euart_tx
+Z14 w1681448573
+R2
+R3
+R4
+!i122 0
+R0
+Z15 8C:/Users/simon/Desktop/ENSC350/project/uart_tx/uart_tx.vhd
+Z16 FC:/Users/simon/Desktop/ENSC350/project/uart_tx/uart_tx.vhd
+l0
+L8 1
+VQ3A7Q@QQ@QobB7h:<^i6H0
+!s100 h_TPlDehT_hoiEDDjkSLJ2
+R7
+33
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-2008|-work|work|C:/Users/simon/Desktop/ENSC350/project/uart_tx/uart_tx.vhd|
+Z18 !s107 C:/Users/simon/Desktop/ENSC350/project/uart_tx/uart_tx.vhd|
+!i113 1
+R11
+R12
+Adatapath
+R2
+R3
+R4
+DEx4 work 7 uart_tx 0 22 Q3A7Q@QQ@QobB7h:<^i6H0
+!i122 0
+l62
+L18 391
+VCAVT5PfDUL_A0o6J5`dZR3
+!s100 admb5a6M1WH4cozk]4e3f0
+R7
+33
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R11
+R12
